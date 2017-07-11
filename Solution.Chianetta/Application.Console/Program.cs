@@ -12,7 +12,7 @@ namespace Application.Chianetta
         static void Main(string[] args)
         {
            
-            Console.WriteLine("La somma dei multipli è: {0}",  EuleroProblem.Eulero());//TODO 
+            Console.WriteLine("La somma dei multipli è: {0}",  EuleroProblem.Eulero());//TODO tets
             Console.ReadLine();
            
             int[,] a = new int[,] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 16 }, { 17, 18, 19, 20 } };
