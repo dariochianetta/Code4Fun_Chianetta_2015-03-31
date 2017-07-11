@@ -13,7 +13,7 @@ namespace Application.lib
             var numbers = Enumerable.Range(0, 1000)
                 .Where(n => n%3 == 0 || n%5 == 0);
 
-            return  numbers.Sum();
+            return  numbers.Sum(); // COMMIT 03
             
 
         }
