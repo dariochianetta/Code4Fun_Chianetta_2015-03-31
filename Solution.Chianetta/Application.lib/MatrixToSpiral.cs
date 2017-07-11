@@ -15,7 +15,7 @@ namespace Application.lib
             if (colMax < colMin && rowMax < rowMin)
                 return;
 
-            int i = colMin, j = colMax, k = rowMin, l = rowMax;
+            int i = colMin, j = colMax, k = rowMin, l = rowMax;// COMMIT 04
 
             for (; i <= colMax; )
             {
